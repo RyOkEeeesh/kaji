@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:'メイリオ', 'Meiryo', sans-serif ;
+}
+
+div#center{
+    text-align: center;
+}
+
+div#right{
+    text-align: right;
+}
+
+li{
+    font-size: 23px;
+    width: fit-content;
+    margin: auto;
+}
+
+p{
+    font-size: 23px;
+    font-weight:bold;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 2em;
+
+}
+
+.box{
+    background-color: antiquewhite;
+    width: auto;
+    height: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+img{
+    max-width: 90%;
+    height: auto;
+    margin-top: 2em;
+}
+
+small{
+    font-size: medium;
+}
+
+.ex1 .head{
+    margin-top: 1em;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+}
+
+.ex1 .head:before{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    top: 27px;
+    left: -100px;
+    background:black;
+}
+
+.ex1 .head:after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    top: 27px;
+    right: -100px;
+    background:black;
+}
