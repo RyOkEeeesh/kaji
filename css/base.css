@@ -19,12 +19,12 @@ li{
 }
 
 p{
-    font-size: 23px;
+    font-size: 20px;
     font-weight:bold;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 2em;
 
 }
@@ -33,29 +33,29 @@ h2{
     background-color: antiquewhite;
     width: auto;
     height: auto;
-    margin-top: 4em;
-    margin-bottom: 4em;
-    margin-left: 5em;
-    margin-right: 5em;
-    padding-left: 2em;
-    padding-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
     padding-top: 1em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
 }
 
 img{
-    max-width: 90%;
+    max-width: 80%;
     height: auto;
     margin-top: 2em;
 }
 
 small{
-    font-size: medium;
+    font-size: small ;
 }
 
 .ex1 .head{
     margin-top: 1em;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     display: inline-block;
     position: relative;
@@ -64,21 +64,21 @@ small{
 .ex1 .head:before{
     content: '';
     display: block;
-    width: 80px;
-    height: 3px;
+    width: 40px;
+    height: 2px;
     position: absolute;
-    top: 27px;
-    left: -100px;
+    top: 17px;
+    left: -50px;
     background:black;
 }
 
 .ex1 .head:after{
     content: '';
     display: block;
-    width: 80px;
-    height: 3px;
+    width: 40px;
+    height: 2px;
     position: absolute;
-    top: 27px;
-    right: -100px;
+    top: 17px;
+    right: -50px;
     background:black;
 }
