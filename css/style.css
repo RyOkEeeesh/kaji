@@ -128,6 +128,12 @@ aside li{
 	margin-bottom: 15px;
 }
 
+aside li a{
+	color: brown;
+	text-decoration: none;
+	font-weight: bold;
+}
+
 footer{
 	background-color:lightcyan;
 	padding: 30px 0;
