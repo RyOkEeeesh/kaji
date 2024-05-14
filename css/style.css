@@ -4,7 +4,7 @@ body{
 	margin: 0;
 
 }
-
+/* 画像下部の空白を無くす */
 img{
 	vertical-align: bottom;
 }
@@ -125,7 +125,8 @@ hr{
 }
 
 aside li{
-	margin-bottom: 15px;
+	font-size: 14px;
+	margin-top: 15px;
 }
 
 aside li a{
