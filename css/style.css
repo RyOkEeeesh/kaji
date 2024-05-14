@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body{
-  background-color: white;
-  margin: 0;
+	background-color: white;
+	margin: 0;
 
 }
 
@@ -89,7 +89,7 @@ article h2{
 
 .img01{
 	width: 200px;
-	height: auto;
+	height: 200px;
 	margin: 20px 0
 }
 
